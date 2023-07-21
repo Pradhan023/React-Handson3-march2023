@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Datapage from './datapage'
 import './form.css'
-import { click } from '@testing-library/user-event/dist/click'
  
 class Form extends Component{
     state={
