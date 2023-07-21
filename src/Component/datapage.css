@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.goback{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.back
+{
+    height: 65px;
+    width: 230px;
+    border-radius: 35px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgba(119, 230, 230, 0.457);
+    cursor: pointer;
+}
+.back:hover
+{
+    background-color: aqua;
+}
+.datacontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    border: 3px solid;
+    position: relative;
+    left: 10%;
+    background-image: linear-gradient(skyblue,pink,white);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.datacontainer span{
+    border: 3px solid;
+    border-radius: 10px;
+    width: max-content;
+    padding: 30px;
+    font-size: large;
+    font-weight: 500;
+    margin:30px;
+    background-color: rgba(237, 140, 156, 0.689);
+}
