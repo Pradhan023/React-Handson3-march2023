@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import './datapage.css'
 
 class Datapage extends Component{
-    Constructor(props){
-        super(props)
+    constructor(props){
+        super();
     }
     render(){
         return(
